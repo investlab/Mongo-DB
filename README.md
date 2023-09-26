@@ -2,7 +2,7 @@ CNs are important!!! -days 3650
 
 #### Make PEM containig a public key certificate and its associated private key
 ```bash
-openssl req -newkey rsa:2048 -new -x509 -days 3650 -nodes -subj '/C=US/ST=Massachusetts/L=Bedford/O=Personal/OU=Personal/emailAddress=example@example.com/CN=localhost' -out mongodb-cert.crt -keyout mongodb-cert.key
+openssl req -newkey rsa:2048 -new -x509 -days 3650 -nodes -subj '/C=VN/ST=Hanoi/L=Hanoi/O=Nexttech/OU=IT/emailAddress=example@example.com/CN=ipa.dinhduylong.co' -out mongodb-cert.crt -keyout mongodb-cert.key
 ```
 ```bash
 cat mongodb-cert.key mongodb-cert.crt > mongodb.pem
