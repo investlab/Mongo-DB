@@ -48,3 +48,7 @@ mongo --ssl --sslAllowInvalidHostnames --sslCAFile mongodb-ca.crt --sslPEMKeyFil
 	sslCA: fs.readFileSync('/etc/ssl/mongodb-ca.crt')
 }
 ```
+#### Cluster
+```
+https://www.filecloud.com/supportdocs/fcdoc/latest/server/filecloud-administrator-guide/filecloud-site-setup/filecloud-high-availability/configure-mongodb-cluster-to-use-tls-ssl-with-cluster-authentication-and-mongodb-authentication-on-linux
+```
